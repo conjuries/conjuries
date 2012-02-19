@@ -1,0 +1,7 @@
+#use regexp syntax.
+syntax: regexp
+#no editor backup files
+.~$
+#nothing for local stuff: tests, distro scripts
+^__local
+
